@@ -1,2 +1,2 @@
-# Diver-game
-Diver game voor CLE 1
+# Decompression-game
+Decompression game voor CLE 1
