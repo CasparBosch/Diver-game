@@ -1,0 +1,212 @@
+Game design document
+Decompression
+Caspar Bosch, Christian van der Helm, Kimberley van den Elzen.
+ 
+
+ 
+Inhoudsopgave
+•	Voorwoord
+•	Meet the team
+o	In the beginning, there is the game designer.
+o	The designer usually works with a team.
+•	Genre
+o	The designer creates an experience.
+o	The game consists of elements.
+o	The elements support a theme.
+o	The game begins with an idea.
+
+•	Motivatie
+o	The game is made for a player
+o	The player’s mind is driven by the player’s motivation.
+
+•	Mechanieken
+o	Some elements are game mechanics.
+o	Game mechanics must be in balance.
+
+•	Het verhaal
+o	Story and game structures can be artfully merged with indirect control.!!!!!!!!!!
+o	Stories and games can take place in worlds.
+o	Worlds contain characters.
+o	Worlds contain spaces.
+ 
+Voorwoord
+Dit gamedocument is opgesteld naar inspiratie van het boek The Art of Game Design van Jesse Schell. 
+Meet the team
+In the beginning, there is the game designer:
+Allereerst de makers van dit project. Onze namen zijn: Caspar, Christian en Kimerley. En wij hebben het spel Decompression gebouwd als project voor CLE 1.
+We hebben allereerst een rolverdeling gemaakt. Wie gaat wat doen? Dit hebben we bepaald aan de hand van ieder zijn vaardigheden, sterke punten en voorkeur. Zo is Kimberley visueel ingesteld en doet zij veel aan digital art. Het was dus een logische beslissing om Kim het ontwerp en narrative te laten doen.
+Christian en Caspar zijn allebei met Unity aan de slag gegaan. Dit hebben we besloten te verdelen in het werken aan de physics voor Christian en de interactions/setup en verdere besturing voor Caspar.
+We hebben voor deze verdeling gekeken naar de vaardigheden die Jesse Schell aanduid. 
+De vaardigheden zijn:
+•	Animation
+De game leven geven(via animations/movement).
+•	Anthropology
+De doelgroep bestuderen.
+•	Architecture
+De game karakter geven door de omgeving op te bouwen en te bedenken hoe de speler daar op reageert.
+•	Brainstorming
+Crearen van ideeën met een groep in een korte tijd.
+•	Business
+Inzicht in de markt en industrie waar je in werkt.
+•	Cinematography
+In game video perspectief.
+•	Communication
+Overleg binnen het team en mogelijk met klanten.
+•	Creative writing
+Creëren van fictionele werelden en universums.
+•	Economics
+Kennis van verschillende economieën. 
+•	Engineering
+Mechanische opbouw en structuur van de  game.
+•	Games
+Andere games waar je inzichten uit kunt halen en voorbeelden aan kunt nemen, of hoe je iets niet doet.
+•	History
+Algemene historische kennis.
+•	Management
+Het beheren van het team en hoe we onze doelen gaan bereiken.
+•	Mathematics
+Toegepaste wiskunde in games. 
+•	Music
+Muziek om de speler te raken op een emotioneel dieper niveau.
+•	Psycology
+De werking van het brein van de bestemde speler.
+•	Public speaking
+Het presenteren en uitleggen van het spel. Natuurlijk zelfverzekerd lijken is belangrijk om mensen over te halen.
+•	Sound design
+De kleine geluidjes die het spel echt laten lijken en de speler er in mee trekken.
+•	Technical writing
+Documenten met gedetailleerde uitleg over de bouw en werking van het spel.
+•	Visual arts
+Grafische elementen en weten hoe deze invloed hebben op de speler.
+Zo passen de vaardigheden animation, architecture, cinematography, creative writing en visual arts het beste bij Kim, omdat zij de creatieve van ons team is.
+En zo zijn engineering, management, mathematics en technical writing voor Christan en Caspar.
+Music en sound design hebben we kunnen outsourcen. En brainstorming, business communication, economics, games, history, psycology en public speaking zijn op het hele team van toepassing, omdat het over general management gaat. En dat is iets wat het hele team aangaat.
+
+The designer usually works with a team:
+Het team werkt volgens Schell vaak in de volgende cyclus. 
+1.	Initial brainstorming
+•	Meer ideeën om van te kiezen.
+2.	Independent design
+•	Iedereen denkt ook nog zelf na over wat voor ideeën ze hebben en wat ze vinden van de ideeën van de groep. Dit zorgt voor een snelle eliminatie van de slechtere ideeën.
+3.	Design discussion
+•	De discussie van ideeën wordt nu voortgezet. Ideeën worden verworpen en aangevuld. Op deze manier wordt de game echt gevormd door het hele team en niet door de visie van 1 persoon.
+4.	Design presentation
+•	Het kern team presenteert de aan de rest van het team, de rest van het team geeft kritiek en dan begint het brainstormen weer opnieuw.
+Wij hebben dit proces doorlopen door middel van Discord en Trello. We hebben als team een groep aangemaakt om ook vanuit thuis te kunnen communiceren en elkaar zo op de hoogde te houden. Daarnaast kwamen we elke maandag en woensdag bij elkaar om alles met elkaar door te spreken. 
+We verplaatsten in Trello de kaarten met taken naar de bestemde lijsten en zo konden we van elkaar zien wat iedereen gedaan had en wat we van elkaar nodig hadden of konden verwachten. 
+Daarnaast hebben we unity als engine gekozen met de reden dat we daarmee, naast onze bekendheid met het programma, ook cloud functies konden gebruiken en zo gemakkelijk verder konden bouwen op elkaars werk.
+
+Genre
+The designer creates an experience:
+De designer maakt zijn/haar spel door middel van het bouwen van een ervaring. Een ervaring die we ergens mee hebben is vaak de reden dat we dingen blijven doen/ leuk vinden of stoppen om te doen/niet leuk vinden. Dus hoe hebben wij die ervaring gebouwd?
+We zijn begonnen met 3 fundamentele onderdelen van zo’n ervaring:
+•	De psychologie(wat er in het hoofd van de speler gebeurt)
+•	De antropologie(hoe groepen mensen reageren en ontwikkelen)
+•	Het totaalontwerp
+Het psychologische deel van de ervaring die we proberen te scheppen hebben we bedacht door zelf na te gaan wat we als speler denken. En vooral wat voor gevoelens er bij on opkomen bij bepaalde gebeurtenissen of muziekstukken.
+De antropologische kant van het ervaring vraagstuk hebben we nagenoeg hetzelfde benaderd door ons weer in te leven in de speler, maar door deze keer de focus te verleggen naar hoe wij zouden reageren en hoe wij onszelf zouden aanpassen wanneer er zich een nieuwe situatie voordeed.
+Daarna gingen wij aan de slag met het totaal ontwerp. Het totaalontwerp is eigenlijk de verzameling en toepassing van de hiervoor genoemde onderdelen. En daarmee de beeldschepping van het eindproduct.
+
+The game consists of elements:
+Het spel en bij extensie de ervaring bestaat uit elementen. Deze elementen zijn het gereedschap om de 3 onderdelen van een ervaring te bouwen. 
+Zo hebben wij gekozen om voor het psychologische deel van het vraagstuk vooral in te spelen op kleur, muziek en over het algemeen de sfeer. Dit is namelijk waar het gevoel en de bijkomende gedachten het meest van afhankelijk zijn.
+De antropologie is met name afhankelijk van de gamemechanieken. Want binnen de regels van het spel en hoe het werkt moet je de problemen oplossen die jou kant opkomen. Dit hoeft niet heel bijzonder of indrukwekkend te zijn, maar kan ook simpelweg het navigeren van het level zijn met de avatar.
+
+The elements support a theme:
+En dan komen alle elementen samen om het thema te bepalen en daarmee de voltooiing van de ervaring. Wij besloten om voor een thriller thema te gaan. Om op deze manier, samen met de game mechanics, de aandacht van de speler er bij te houden. Dit hebben wij gedaan volgens het volgende idee proces. 
+
+The game begins with an idea:
+Wij wilden een spel maken dat eenvoudig in vorm, maar van nature spannend was. Zo kwamen wij op het idee op een “forever runner” te maken, maar dit was niet spannend genoeg om de aandacht van de speler er bij te houden of iets waardig van een ervaring te maken. Dus bedachten we dat het onder water moest zijn met een tijdsdruk van een mogelijk zuurstoftekort en een achtergrond die steeds donkerder werd om alles samen een spannende ervaring te laten vormen. Zodat de speler de aandacht bij het spel zou houden. 
+Deze combinatie van het zuurstoftekort(spelmechaniek) met een duisterder wordende sfeer door de combinatie van de achtergrond, muziek en art style (psychologisch aspect) zou onze ervaring later de naam Decompression geven.
+
+Motivatie
+The game is made for a player:
+Het spel wordt gemaakt met een bepaalde doelgroep in gedachten. Na het bepalen van het genre en hoe we het spel willen laten voelen is het belangrijk om te bedenken naar wat voor mensen wij het spel willen marketen. 
+Zo zijn er 2 grote factoren die bepalen waar het spel bij moet passen. Dit zijn de leeftijd en het geslacht van de speler. 
+De leeftijd is te verdelen in de volgende groepen:
+•	0-3, abstracte interfaces zijn nog  te moeilijk, touchscreen kan wel.
+•	4-6, deze kinderen zijn vaak eerste interesse in spellen, spelen vaak meer met ouders die hen matsen.
+•	7-9, kinderen kunnen lezen, schrijven en puzzelen. Hebben een eigen voorkeur.
+•	10-13, kinderen kunnen vaak beter dieper denken en beginnen vaak met een eerste hobby/obsessie.
+•	13-18, bij deze groep ontstaat een scheiding tussen de interesses van jongens en meiden en deze willen dan ook graag experimenteren met nieuwe dingen.
+•	18-24, Deze groep speelt minder dan kinderen en hebben intussen een beetje hun smaak vastgesteld. 
+•	25-35, Deze groep heeft ineens veel minder tijd i.v.m. verplichtingen als werk en familie of heeft juist wel veel tijd en een sterke mening, omdat het hun primaire hobby is.
+•	35-50, Deze groep speelt vooral spellen die met een groep gespeeld kunnen worden, omdat dat vaak leuker is met de familie.
+•	50+, Deze groep speelt het liefst spellen met een sociaal aspect, zodat ze contact kunnen houden nadat iedereen het huis uit is en zij hun liefde voor spellen weer hebben herontdekt. 
+Verder zijn er ook verschillen tussen man en vrouw om rekening mee te houden. Zo zullen mannen vaak neigen naar competitie, verwoesting en spellen die je vragen om iets meester te worden via trial and error.
+Vrouwen daarentegen zullen vaak eerder voor spellen kiezen waar emotie, zorg en dialoog meer centraal staan.
+Aan de hand van deze stellingen hebben wij geconcludeerd dat onze doelgroep zich voornamelijk bevindt onder de jongens van de leeftijdscategorie 7-9 jaar. We zeggen voornamelijk, omdat alles wat er net is beschreven kan variëren van de één tot de ander en niet alles vast staat.
+Het hierbij passende speler type vonden wij de achiever. Dit vonden passen bij het stereotype dat jongens voor de competitieve spellen gaan en houden van uitdaging. Samen met het idee dat kinderen tussen de 7 en 9 jaar oud niet veel nodig hebben om een spel interessant te vinden en dus simpelweg records halen leuk genoeg zouden vinden.
+
+The player’s mind is driven by the player’s motivation:
+We hebben het er net al een stukje over gehad, de motivatie.
+De motivatie van de speler hebben wij beredeneerd volgens het volgende model van Yu Kai Chou. Dit hebben wij gedaan, omdat wij dit een duidelijk , helder en ronduit fijn model vonden na het gebruik ervan in eerdere projecten. 
+Het model gaat uit van 8 bronnen van motivatie(ook wel core-drives) om te spelen: epic meaning, empowerment, social influence, unpredictability, avoidance, scarcity, ownership en accomplishment. 
+Wij hebben het spel ontwikkeld met de volgende core-drives:
+Scarcity: 
+Voor het scarcity aspect hebben we het zuurstof niveau mechaniek bedacht, door een afnemend zuurstof gehalte wordt de speler geforceerd om luchtbellen te verzamelen om door te kunnen blijven gaan. 
+Ownership: 
+Voor ownership hebben het punten systeem bedacht om de speler een gevoel te geven dat het uitmaakt wat hij doet. Het is een simpel systeem waarbij de speler punten krijgt per af gelegde afstand. Op deze manier wordt de speler gemotiveerd om hoger te scoren dan de keer ervoor. Dit zal (zoals uitgelegd) vooral aantrekkelijk zijn voor de mannelijke spelers. 
+Epic meaning: 
+Epic meaning hebben we verwerkt door middel van een verhaal ofwel een narrative. Het idee van het toevoegen van een verhaal is dat de speler geïnteresseerd raakt en zich gaat inleven in het karakter en de wereld van het spel. Op deze manier zal de speler zich alles wat er gebeurt veel meer toe-eigenen en daarmee meer gemotiveerd zijn om te spelen.
+ 
+
+Mechanieken
+Some elements are game mechanics:
+Eerder  hebben we uitgelegd dat het spel een ervaring is en dat een ervaring is opgebouwd uit elementen. Maar die elementen worden ook ergens door opgebouwd. Dit zijn de mechanieken van het spel. Deze zorgen er namelijk voor dat het spel op een bepaalde manier gespeeld wordt, reageert en hoe de speler het spel ervaart. De mechanieken zijn met andere woorden de regels van het spel. De belangrijkste mechanieken zijn: ruimte, tijd, objecten, acties, regels, vaardigheid en kans.
+
+
+Ruimte:
+Voor de ruimte hebben wij gekozen voor een 2D perspectief, omdat de wereld van het spel dan groter lijkt in verhouding tot de speler. Het spel bevind zich onder water, in de dieptes van de zee. Wij hebben hiervoor gekozen, omdat dit samen met een beperkte helder- en zichtbaarheid voor een gevoel van isolatie en druk zorgt. Dit zou ook als de setting  benoemd kunnen worden.
+Tijd:
+Voor het tijd aspect hebben wij er voor gekozen om geen element van tijd toe te voegen anders dan hoe gedateerd de wereld eruit ziet, omdat het zien van een klok of timer je compleet uit de ervaring kan halen. 
+Objecten:
+Voor de objecten hebben er voor gekozen om naast de speler ook obstakels en tegenstanders toe te voegen. Op deze manier wordt het spel niet een lege betekenisloze runner, maar echt een ervaring met een verhaal. Zo heeft de speler en het karakter ook echt iets te doen wat betekenis geeft aan wat er in het spel bereikt kan worden. Zonder een tegenspeler is de hoofdpersoon namelijk niets.
+Acties:
+De acties hebben wij vrij eenvoudig gehouden. Het karakter is op en neer te bewegen terwijl het scherm verder scrolt. Zo kan de speler objecten ontwijken en luchtbellen verzamelen om te blijven overleven en een hogere score te bereiken.
+Regels:
+Ook zijn de regels van het spel heel eenvoudig. De regels zijn namelijk een vertaling van het doel naar de speler en hoe deze dit doel moet bereiken. 
+De speler moet doormiddel van het bewegen van het karakter luchtbellen met zuurstof verzamelen om te blijven leven. Daarnaast moet de speler obstakels vermijden om zo ver mogelijk te komen en de dieptes van de oceaan te ontdekken.
+Vaardigheid:
+De vaardigheden die te pas komen aan het spelen van decompression zijn de vaardigheid om vooruit te kijken, te reageren op wat er voor je afspeelt en je aandacht zorgvuldig verdelen. 
+Vooruitkijken wordt getest door de scrollende achtergrond en de obstakels die worden gegenereerd.
+Reactievermogen wordt getest in combinatie met het vooruit kijken door de beperkte ruimte die er is om het karakter te bewegen samen met de beperkte verlichting.
+Daarnaast wordt je geforceerd om op meerdere dingen te letten doormiddel van het zuurstofgehalte.
+
+Kans:
+De kans factor is in het geval van ons spel van toepassing op de manier waarop er luchtbellen met zuurstof worden gegenereerd. Dit zorgt voor een onvoorspelbaar scenario dat elke keer anders is wanneer het opnieuw gespeeld wordt.
+Game mechanics must be in balance:
+Hoe hebben we ons spel uitgebalanceerd op basis van de voorgaande begrippen?
+De mechanieken van het spel moeten natuurlijk wel gebalanceerd zijn. Als dit niet zo is wordt de ervaring van het spel verstoord en wordt de speler niet meegesleept in de wereld van het spel.
+Wij hebben dit op de volgende manier bedacht. De speler moet beperkt zijn in wat hij kan om de speler het gevoel te geven dat er iets te overwinnen valt. In ons geval hebben wij dit gedaan door de speler vooral omhoog en omlaag te laten bewegen en maar heel weinig zijwaarts, dit zorgt ervoor dat de speler heel goed moet inschatten hoe hij/zij door de obstakels van het spel navigeert, maar wel genoeg luchtbellen verzamelt om in leven te blijven. Dit stukje balans gaat om het vaardigheid tegen kans aspect.
+Het volgende onderdeel van de balans is uitdaging tegen succes. Wij hebben dit verwerkt door simpele besturing en beweging aan he spel toe te voegen om de taak heel basaal en eenvoudig te houden. Maar door de obstakels in hoeveelheden toe te laten nemen en de luchtbellen te laten verminderen. Dit zorgt ervoor dat vrijwel iedereen het spel kan spelen en dat het toch genoeg uitdaging blijft bieden voor degenen die uitdaging zoeken.
+
+Het verhaal
+Story and game structures can be artfully merged with indirect control:
+Limitaties:
+Je bent in het spel gelimiteerd in hoe je kunt bewegen en hoe snel je kunt bewegen. Dit zorgt voor spanning, maar ook een eenvoudigheid die het spel gemakkelijk te spelen maakt.
+Doelen:
+Het doel van het spel is om zo diep(ver) mogelijk te komen om zo elke keer dat je speelt een nieuw record neer te zetten.
+Interface:
+De interface is heel simpel. Het zijn 4 pijlen voor de vier richtingen die je op kunt gaan en aan de rand van het scherm nog een pauze knop. Wij hebben hiervoor gekozen, omdat het gaat om een spel dat bedoeld is voor android. Dit betekent dat er waarschijnlijk niet bijzonder veel ruimte zal zijn om zowel goed op de toetsen te kunnen drukken als het spel te kunnen zien.
+
+Visueel ontwerp:
+Het visuele ontwerp is gedaan naar een victoriaanse steampunk inspiratie. Dit vonden wij heel erg bijdragen aan de atmosfeer van het diepzee duiken. Het gaf voor ons namelijk nog meer het gevoel dat we niet wisten wat zich allemaal in de zee bevind, gezien de technologische staat deze look heeft. 
+ 
+ 
+ 
+ 
+ 
+Karakters:
+De karakters zijn de speler en de vissen. De speler is een victoriaanse maritiem-bioloog die op onderzoek uitgaat op de bodem van de oceaan na een aantal verontrustende geruchten. Hoe dieper de speler komt hoe meer hij/zij zich realiseert dat er iets goed mis is en dat hij/zij niet alleen is.
+Muziek:
+De muziek is geïnspireerd door een spookachtige sfeer om zo het spel nog meer te laten spreken tot de verbeelding.
+Stories and games can take place in worlds:
+Het spel Decompression speelt zich af in een steampunk wereld waar er vreemde verschijnselen zijn gesignaleerd in de diep zee. Jij, de speler, gaat als marine bioloog op onderzoek uit. Je trekt je duikpak aan om het mysterie te ontrafelen, maar hoe verder je komt, hoe meer het tot je door gaat dringen dat er iets niet klopt. En dat er iets veel duisterders schuilt in de diepzee dan iemand had kunnen bedenken.
+Worlds contain characters:
+De karakters van het spel is de speler/duiker.
+Het doel van de speler/duiker is om dieper te duiken en er achter te komen wat er gaande is in de diepzee zonder zuurstof tekort te komen. 
+Worlds contain spaces:
+Level design keuzes.
+Voor de ontwerpen van onze levels hebben wij achtergronden ontwikkelt, gezien het een 2D-infinite runner is. Dit betekent dat er alleen een visuele representatie van de omgeving op de achtergrond hoeft te zijn om de sfeer over te brengen. Wij hebben ervoor gekozen om te beginnen in een goed verlichte omgeving en langzaam naar de donkere bodem van de zee te bewegen om zo steeds meer een eng beklemmend effect op te wekken. Dit draagt volgens ons bij aan de sfeer en het idee dat, samen met de nood van het zuurstoftekort, de duiker/speler in gevaar is.
+
