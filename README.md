@@ -26,3 +26,5 @@ Mocht je mee willen helpen aan dit project, dan zijn de volgende dingen van bela
 - Er moet een zuurstof meter worden toegevoegd samen met een score teller.
 - De karakters moeten als sprites geanimeerd worden.
 - Elke 500 meter moet de achtergrond verandeen naar de volgende fase.
+
+Link naar Decompression: https://play.unity.com/mg/other/webgl-builds-115133 
