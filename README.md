@@ -1,7 +1,7 @@
 # Decompression-game
 Decompression game voor CLE 1
 
-Decompression is een 2D infinite runner waarbij je constant naar luchtbellen zoekt om in leven te blijven, terwijl je steeds dieper duikt om er achter te komen wat voor misterieus er op de bodem van de zee afspeeld.
+Decompression is een 2D infinite runner waarbij je constant naar luchtbellen zoekt om in leven te blijven, terwijl je steeds dieper duikt om er achter te komen wat voor mysterieus er op de bodem van de zee afspeeld.
 
 Hoe installeer je Decompression?
 Klik op de link naar het spel of download de zip map.
